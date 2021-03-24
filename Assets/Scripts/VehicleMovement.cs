@@ -10,6 +10,11 @@ public class VehicleMovement : MonoBehaviour
     public float acceleration;
     public float steering;
 
+    public KeyCode left;
+    public KeyCode right;
+    public KeyCode up;
+    public KeyCode down;
+
     private Rigidbody2D rb;
     private float currentSpeed;
 
@@ -52,6 +57,8 @@ public class VehicleMovement : MonoBehaviour
         }
         currentSpeed = rb.velocity.magnitude;
     }
+
+    
 
 }
 
