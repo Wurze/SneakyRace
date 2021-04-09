@@ -18,7 +18,7 @@
     },
     {
       "Annotation": "Il2Cpp C:/Users/Zaco/Documents/GitHub/Rockets/Library/Il2cppBuildCache/UWP/x64/il2cppOutput",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.0f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --incremental-g-c-time-slice=3 --baselib-directory=\"Temp\\StagingArea\\Il2CppOutputProject\\IL2CPP\\build\\baselib\\x64\\Release\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/Zaco/Documents/GitHub/Rockets/Library/Il2cppBuildCache/UWP/x64/il2cppOutput",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.1f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --incremental-g-c-time-slice=3 --baselib-directory=\"Temp\\StagingArea\\Il2CppOutputProject\\IL2CPP\\build\\baselib\\x64\\Release\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/Zaco/Documents/GitHub/Rockets/Library/Il2cppBuildCache/UWP/x64/il2cppOutput",
       "Inputs": [
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
@@ -35,6 +35,7 @@
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/System.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/System.Xml.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/Unity.2D.IK.Runtime.dll",
+        "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -48,6 +49,7 @@
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
         "C:/Users/Zaco/Documents/GitHub/Rockets/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
