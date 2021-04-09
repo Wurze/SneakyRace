@@ -10,9 +10,9 @@ We will have a UI for the main menu from which the game can be started, and the 
 ## How threads will be used
 
 #### Lock Thread 
-– In our game there will be a countdown from the moment you press Start game until the game actually begins. A single thread will handle this countdown and will let the game start after the countdown reaches 0. It will be a locking thread. If another thread tries to enter into critical section of code, then it is prevented and blocked and then it will wait until the chosen task is released from the using thread.
+  In our game there will be a countdown from the moment you press Start game until the game actually begins. A single thread will handle this countdown and will let the game start after the countdown reaches 0. It will be a locking thread. If another thread tries to enter into critical section of code, then it is prevented and blocked and then it will wait until the chosen task is released from the using thread.
 #### ThreadPool 
-- During the game, different objects will be spawn on the map on a specific interval of time. We will create a system threading time that defines the callback method, and the amount of time to delay before the first invocation of the callback and the time interval between callbacks invocations.
+  During the game, different objects will be spawn on the map on a specific interval of time. We will create a system threading time that defines the callback method, and the amount of time to delay before the first invocation of the callback and the time interval between callbacks invocations.
 
 ## UML
 ![UML diagram](UML-Sneaky Race.png)
