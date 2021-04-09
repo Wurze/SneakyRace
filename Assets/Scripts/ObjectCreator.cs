@@ -32,6 +32,7 @@ public class ObjectCreator : MonoBehaviour
         
     }
 
+
     void Spawn()
     {
         Instantiate(obstacle,new Vector2(Random.Range(-9f,9f),Random.Range(-5f,9f)),obstacle.transform.rotation);

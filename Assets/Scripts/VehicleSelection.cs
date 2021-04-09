@@ -7,7 +7,7 @@ public class VehicleSelection : MonoBehaviour
 
     public GameObject[] vehicles;
     public int selectedVehicle = 0 ;
-
+    
 
   
     public void NextVehicle()
@@ -30,10 +30,23 @@ public class VehicleSelection : MonoBehaviour
     }
 
 
+    public void PickVehicle1()
+    {
+        PlayerPrefs.SetInt("selectedVehicle1", selectedVehicle);
+    }
+
+    public void PickVehicle2()
+    {
+        PlayerPrefs.SetInt("selectedVehicle2", selectedVehicle);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
+
+
     public void StartGame()
     {
-        PlayerPrefs.SetInt("selectedVehicle", selectedVehicle);
+        
         SceneManager.LoadScene(1, LoadSceneMode.Single);
+
     }
 
    

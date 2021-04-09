@@ -2,16 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
 public class PlayerController : MonoBehaviour
 {
-   
+
     public float maxSpeed;
     public float acceleration;
     public float steering;
     private Vector2 movementInput;
     private Rigidbody2D rb;
     private float currentSpeed;
-
+    public Canvas canvas;
 
 
     private void Start()
@@ -27,6 +29,18 @@ public class PlayerController : MonoBehaviour
         movementInput = context.ReadValue<Vector2>();
     }
 
+
+    public void OnTriggerEnter2D(Collider2D otherObj)
+    {
+        if (otherObj.CompareTag("Obstacle"))
+        {
+
+            
+            Destroy(gameObject, .5f);
+            SceneManager.LoadScene(2, LoadSceneMode.Single);
+
+        }
+    }
 
     private void FixedUpdate()
     {
