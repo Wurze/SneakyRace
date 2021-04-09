@@ -28,7 +28,7 @@ public class StartGame : MonoBehaviour
             startText.text = (currentTime).ToString("0");
         }
         
-        catch(NullReferenceException ex)
+        catch(NullReferenceException)
         {
             Debug.Log("text was not set");
         }
@@ -41,7 +41,7 @@ public class StartGame : MonoBehaviour
                 startText.text = "GO!";
             }
             
-            catch(NullReferenceException ex)
+            catch(NullReferenceException)
             {
                 Debug.Log("text was not set");
             }
@@ -62,7 +62,7 @@ public class StartGame : MonoBehaviour
         {
             startText.gameObject.SetActive(false);
         }
-        catch (NullReferenceException ex)
+        catch (NullReferenceException)
         {
             Debug.Log("text was not set");
         }

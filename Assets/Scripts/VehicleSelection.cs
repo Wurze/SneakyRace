@@ -6,10 +6,10 @@ public class VehicleSelection : MonoBehaviour
 {
 
     public GameObject[] vehicles;
-    public int selectedVehicle = 0;
+    public int selectedVehicle = 0 ;
 
 
-
+  
     public void NextVehicle()
     {
         vehicles[selectedVehicle].SetActive(false);
