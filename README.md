@@ -15,4 +15,4 @@ We will have a UI for the main menu from which the game can be started, and the 
   During the game, different objects will be spawn on the map on a specific interval of time. We will create a system threading time that defines the callback method, and the amount of time to delay before the first invocation of the callback and the time interval between callbacks invocations.
 
 ## UML
-![UML diagram](UML-Sneaky Race.png)
+![UML diagram](UML.png)
