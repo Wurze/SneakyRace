@@ -7,6 +7,7 @@ public class LoadVehicle : MonoBehaviour
 
     public GameObject[] vehiclePrefabs;
     public Transform spawPoint;
+    
 
     // Start is called before the first frame update
     void Start()
